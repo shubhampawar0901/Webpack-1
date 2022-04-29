@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: aqua;
+    background-image: url("https://i.pinimg.com/originals/03/6c/26/036c26e0df1b8a19ae8a65fabff75d4b.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+#navbar {
+    /* display: flex;
+    justify-content: space-between;
+    width: 95%;
+    padding: 1rem 3rem;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 13rem;
+    position:fixed;
+    /* z-index: 99; */
+    /* top: 0; */
+    /* border: 1px solid yellow; */
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    /* margin: auto; */
+    position:fixed;
+    width: 98%;
+    margin-left: 1rem;
+    top: 0;
+    /* margin-left:auto; */
+    /* left: auto;
+    right: auto; */
+    padding: 1rem 2rem;
+    z-index: 99;
+    background-color: aqua;
+    opacity: 0.5; 
+
+}
+
+h1{
+    margin-top: 4rem;
+    text-align: center;
+}
+
+#options{
+    display: flex;
+    gap: 1rem;
+    width: 70%;
+}
+
+#credentials{
+    display: flex;
+    gap: 1rem;
+}
+
+#search{
+    width: 55%;
+    max-height: 1rem;
+    margin: auto;
+}
+
+#resultDiv{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 1rem;
+    width: 95%;
+    margin: auto; 
+    margin-top: 10rem;
+    align-items: center;
+    text-align: center;
+    align-items: center;
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+    /* margin: auto; */
+    /* padding-top: 12rem; */
+    /* margin-top: 14rem;
+
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-gap: 5rem;
+    gap: 2rem;
+    width: 95%;
+    margin: auto;
+    margin-top: 13rem;*/
+}
+#card{
+    height: 250px;
+    margin-top: 12px;
+}
+
+#poster{
+    height: 90%;
+}
+
+#name{
+    font-weight: 600;
+}
+
+
+p,h3{
+    line-height: 28px;
+}
+
+#form, #login{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    gap: 1rem;
+    margin: auto;
+    margin-top: 10rem;
+}
